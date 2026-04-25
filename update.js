@@ -8,12 +8,12 @@ const github = new Octokit({
 });
 
 const release = await github.rest.repos.getReleaseByTag({
-  owner: 'catppuccin',
-  repo: 'userstyles',
+  owner: 'Reserio',
+  repo: 'catppuccin-userstyles',
   tag: 'all-userstyles-export',
 })
 const id = release.data.assets.find((asset) => asset.name === 'import.json').id;
-const url = `https://api.github.com/repos/catppuccin/userstyles/releases/assets/${id}`;
+const url = `https://api.github.com/repos/Reserio/catppuccin-userstyles/releases/assets/${id}`;
 
 fetch(url, {
   method: "GET",
