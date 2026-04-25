@@ -91,7 +91,7 @@ function download() {
 				<a
 					class="border border-surface0 border-rounded flex h-auto p2 hover:bg-mantle"
 					aria-label="GitHub repository"
-					href="https://github.com/uncenter/catppuccin-userstyles-customizer"
+					href="https://github.com/Reserio/catppuccin-userstyles-customizer"
 					target="_blank"
 				>
 					<div class="self-center i-carbon-logo-github" />
